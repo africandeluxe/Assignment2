@@ -36,7 +36,6 @@ function isGameWon() {
     return hiddenWord.join("") === selectedWord;
 }
 
-initializeGame();
 
 while (attemptsLeft > 0) {
     displayGameState();
